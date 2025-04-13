@@ -1,0 +1,151 @@
+/*poner el texto de las cartas justuficadas*/
+.card-text{
+text-align: justify;
+color:#c0b9b9;
+}
+
+.card-title{
+    text-align: center;
+    font-family: "Major Mono Display", monospace;
+    color: #ffffff;
+}
+/*  FIN poner el texto de las cartas justuficadas*/
+ /*Exportar fuentes de google fonts*/
+ .titulo {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+/*Separar las tarjetas*/
+.contenedor{
+    display: flex;
+}
+/*Colocar y darle estilo a la linea que separa contenido en la pagina web*/
+hr{
+    border-color: rgb(209, 207, 218);
+    border-width: 2px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Darte tonos diferentes a la pagina de inicio y de contenido*/
+
+/* Estilo para la parte superior de la página */
+#parteSuperior {
+    background-color:#131313; 
+    height: 200%; 
+  }
+  
+  /* Estilo para la parte inferior de la página */
+  #parteInferior {
+    background-color: #1b1a1a; 
+    height: 400%; 
+}
+body {
+    /* Elimina los márgenes para que no haya bordes blancos */
+    margin: 0;
+    /* Asegura que el contenido de la página ocupe todo el alto de la ventana */
+    height: 100vh;
+    /* Utiliza flexbox para organizar los divs verticalmente */
+    display: flex;
+    flex-direction: column;
+}
+
+.bn{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-style:oblique;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+}
+.bn2{
+text-align: center;
+color: rgb(64, 64, 66);
+font-size: 20px;
+}
+
+#contenedorImagenes {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.bn3 {
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 30px;
+}
+
+.imagenes{
+    margin-right: 40px;
+    display: flex;
+}
+
+.parrafo{
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: center;
+}
+
+.online {
+    background-color: #131313;
+    color: #fff;
+}
+
+.card {
+    background-color: #131313;
+    border: 1px solid #000000;
+    margin-bottom: 20px;
+}
+
+.contenedorS{
+    background-color: #131313;
+}
+
+.soporte{
+    background-color: #131313;
+    margin: 0;
+    color: #ffffff;
+}
+
+.contenedor1{
+    background-color: #131313;
+}
+
+.on{
+    border-color: rgb(209, 207, 218);
+    border-width: 2px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cds {
+    background-color: #131313;
+}
+
+.card-img-overlay{
+    text-align: center;
+    color: #ffffff;
+}
+
+.card-body{
+    background-color: #131313;
+}
+
+.card-title{
+    color: #ffffff;
+}
+
+.catalogo{
+    background-color:#131313 ;
+}
+
+
